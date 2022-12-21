@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Circular', Helvetica, Arial, sans-serif;
+    
+}
+
+header {
+    background-color: #000;
+    display: flex;
+    width: 100%;
+    height: 130px;
+}
+
+
+.wraper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+
+.hamburguer {
+    display: none;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li a:hover {
+color:#1ED760;
+text-decoration: underline;
+
+}
+
+.btn-content {
+    text-transform: uppercase;
+}
+
+/* Sections */
+
+section {
+    display: flex;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+    padding: 40px;
+    background-color: #DF0C8B;
+}
+.title-content {
+    margin-left: 15%;
+    margin-top: 50px;
+}
+
+.title-content h1 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: bold;
+    text-align: initial;
+}
+
+.sub-title-content {
+    margin-top: 20px;
+    margin-left: 15%;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: initial;
+}
+
+.btn-content {
+    margin-left: 15%;
+    margin-top: 40px;
+}
+
+.btn1 {
+    padding: 15px;
+    font-size: 15px;
+    width: 250px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: 0;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+}
+
+.btn2 {
+    padding: 14px;
+    font-size: 15px;
+    color: #fff;
+    margin: 12px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.btn1:hover {
+    transform: scale(1.1);
+}
+
+.btn2:hover {
+    transform: scale(1.1);
+    background-color: #ad1972;
+}
+
+.small-content {
+    margin-left: 15%;
+    margin-top: 40px;
+    text-align: initial;
+}
+
+.small-content p{
+    font-size: 12px;
+    color: #fff;
+    text-align: initial;
+}
+
+.img-spotify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #DF0C8B;
+}
+
+.img-spotify img {
+    width: 70%;
+   
+}
+
+@media(max-width:768px){
+    ul{
+        display: none;
+    }
+    .hamburguer {
+        display: flex;
+        color: #fff;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .btn1 {
+        width: 100%;
+    }
+    .btn2 {
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:1201px){
+    section {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .img-spotify img{
+        width: 70%;
+        margin: auto;
+    }
+
+}

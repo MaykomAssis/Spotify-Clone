@@ -1,2 +1,2 @@
 # Spotify-Clone
- Clone do ste do Spotify onde aprendi novos conceitos e pratiquei ainda mais.
+ Clone do site da spotify para exercitar conceitos.
